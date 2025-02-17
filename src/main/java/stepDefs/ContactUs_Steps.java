@@ -88,7 +88,7 @@ public class ContactUs_Steps {
         Assert.isTrue(url.contains("contact-form-thank-you.html"), "Incorrect URL ...");
 
         String message = driver.findElement(By.tagName("h1")).getText();
-        Assert.isTrue(message.equals("Thank You for your Message!"), "Incorrect message ...");
+        Assert.isTrue(message.equals("Thank You for your Massage!"), "Incorrect message ...");
     }
 
     @And("I click on Reset button")
