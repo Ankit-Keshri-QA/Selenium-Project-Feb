@@ -29,4 +29,4 @@ jobs:
           sudo apt-get install -y maven
 
       - name: Run Tests
-        run: mvn clean test
+        run: mvn clean install
