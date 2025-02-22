@@ -38,7 +38,7 @@ public class ContactUs_Steps {
         driver = new ChromeDriver(chromeOptions);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @After
